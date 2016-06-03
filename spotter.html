@@ -12,15 +12,24 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+	<script src="js/flickity.pkgd.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-6 col-xs-offset-1
-							col-md-4 col-md-offset-1">
-					<a href="index.html"><img src="images/name.png" /></a>
+				<div class="col-xs-12 col-md-6">
+					<a href="index.html"><p class="head">Esther H. Lee</p></a>
+					<p class="subhead">UX/UI & Visual Designer</p>
+				</div>
+				<div class="primary-nav col-xs-12 col-md-6">
+					<ul>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -34,28 +43,20 @@
 					<h4>IOS MOBILE APPLICATION</h4>
 					<h4>BRANDING & INTERACTIVE DESIGN</h4>
 				</div>
-				<div class="form-group">
-					<div class="col-xs-12 text-center">
-						<a href="#">
-						<button type="submit" class="btn btn-default">VIEW PROTOTYPE</button>
-						</a>
-					</div>
+				<div class="col-xs-12 text-center">
+					<a href="https://invis.io/G97B6R3RS#/146455623_Homepage"><button type="button" class="btn btn-default">VIEW PROTOYPE</button></a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="approach">
+	<section class="sp approach">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-1
-							col-lg-4 col-offset-1">
-					<img src="images/spotter2.png" />
+				<div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-4">
+					<img class="center-block" src="images/spotter2.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-6 col-md-offset-1
-							col-lg-6 col-lg-offset-1">
+				<div class="col-xs-12 col-md-7 col-lg-6">
 					<h2>APPROACH & PROCESS</h2>
 					<p>Living in and around a large metropolitan city my whole life, I’ve experienced and seen others go through the struggles of finding safe and affordable parking. Oftentimes, a simple lunch outing in downtown would lead to circling a block for forty minutes only to end up parking in an overpriced structure or a distant lot. There are countless stories of friends who would research good parking lots near a restaurant or venue ahead of time but then find the lot full when they arrive there.</p>
 					<p>Spotter is an iOS mobile application that attempts to reduce the struggles of drivers in large cities who face the issue of finding appropriate parking spots. By offering users the ability to find parking spots near them, view details of a parking lot, and select a spot to book and checkout, Spotter seeks to provide the solution to stressful parking situations.</p>
@@ -65,27 +66,133 @@
 		</div>
 	</section>
 
-	<section class="research">
+	<section class="sp research">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-3">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
 					<h2>RESEARCH</h2>
 					<p>After surveying and interviewing possible users of Spotter, I gathered a list of user stories and created a user flowchart. As I considered user stories, it was tempting to add additional features like adding a reminder for a spot reservation or including a navigation system. These features would enhance the application, but it would also complicate the flow and distract users from the main purpose of Spotter. There are many applications for reminders and navigation, and I thought by tapping into that market, Spotter would lose its competitive position. By focusing on what Spotter is for, which is to find and book parking spots, it would not only simplify the user flow but also create its own niche of expertise.</p>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6">
+				<div class="col-xs-12 col-md-6">
 					<h3>USER STORIES</h3>
-					<img src="images/spotuserstory1.png" />
+					<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>As a user</td>
+								<td>I want to find parking spots by inputting an address</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to find parking spots through my current location</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to enable/disable location services on my mobile device</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to find parking spots at a specific time and date</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to select a parking spot</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to create an account</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to sign in to my account</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to pay for a parking spot through a saved credit card</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to pay for a parking spot with a new credit card</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to save my credit card information onto my account</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to pay for a parking spot through PayPal</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to pay for a parking spot through fingerprint recognition</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to view spots that I already paid for</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to cancel my reserved spot</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to edit my reservation date/time</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to rate a parking lot</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to view photos of a parking lot</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to search for a parking spot with handicap accessibility</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to search for a parking spot that allows overnight parking</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to search for a parking spot that has an on-site staff</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to search for a parking spot that has a roof</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-6">
+				<div class="col-xs-12 col-md-6">
 					<h3>REMOVED FEATURES</h3>
-					<img src="images/spotuserstory2.png" />
+					<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>As a user</td>
+								<td>I want to add a reminder</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to compare parking spots</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to transfer a parking spot to another user</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want an in-app navigation to direct me to the parking lot</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to search for a parking spot that has EV charging</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
+
+				<!--
 				<div class="col-xs-10 col-xs-offset-1
 							col-md-8 col-md-offset-2
 							col-lg-5">
@@ -102,40 +209,36 @@
 							col-lg-7">
 					<img src="images/spotflow3.png" />
 				</div>
+				-->
 			</div>
 		</div>
 	</section>
 
-	<section class="design">
+	<section class="sp design">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-3">
+				<div class="col-xs-12 col-md-6">
 					<h2>DESIGN</h2>
 					<p>As mentioned above, I believed what would set Spotter ahead of its competitors was its sophisticated interface. Therefore the design portion was an important aspect of the process.</p>
 					<p>Because Spotter is an application designed to be used on small devices, the logo needed to remain free of small details. I decided that the solution to this would be to use large shapes and positive and negative space, leading to the logo below.</p>
 					<p>With a simple analogous color palette of teal and green as the highlights and a neutral palette for the maps, the interface was designed to be clean, straightforward and easy on the eyes. The blue tones were incorporated to accent the feeling of calmness and stability to contrast feelings of “road rage” that drivers often experience when having difficulty searching for a parking spot.</p>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6">
-					<img src="images/spotlogo1.png" />
+				<div class="col-xs-12 col-md-6">
+					<img class="center-block" src="images/spotlogo1.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-6">
-					<img src="images/spotlogo2.png" />
+				<div class="col-xs-12 col-md-6">
+					<img class="center-block" src="images/spotlogo2.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-10 col-lg-offset-1">
+				<div class="col-xs-12 col-sm-12 col-sm-8-offset-2
+				col-md-offset-1 col-lg-10 col-lg-offset-1">
 					<h3>COLOR PALETTE</h3>
-					<img src="images/spotcolor.png" />
+					<div class="square" style="background:#0188A8;"></div>
+					<div class="square" style="background:#8BC6C3;"></div>
+					<div class="square" style="background:#A0D07B;"></div>
+					<div class="square" style="background:#A2A2A2;"></div>
+					<div class="square" style="background:#333333;"></div>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-10 col-lg-offset-1">
+				<div class="col-xs-12 col-md-10 col-md-offset-1">
 					<h3>TYPOGRAPHY</h3>
 					<p class="subtitle">SUBHEAD</p>
 					<p class="spottype1">SEARCH SPOTS</p>
@@ -146,49 +249,42 @@
 		</div>
 	</section>
 
-	<section class="wireframes">
+	<section class="sp wireframes">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-3">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
 					<h2>WIREFRAMES</h2>
 					<p>In order for Spotter to set itself ahead of its competitors, it would need to have an interface that not only aesthetically appealed to users but also simplified the experience. When users are given too many options or have to navigate through too many pages to get a result, it reduced their satisfaction in using a product. Therefore, with the various options that Spotter had to offer, my challenge was to find a solution to present all the options and features without making it seem like there was too much information for the users.</p>
 					<p>One of the biggest concerns I had was in how to present the different options users can choose from when searching for a parking lot. Many applications similar to Spotter have users set their preferences in the menu and those preferences would be applied to all searches until edited. However, editing preferences through the menu increases the number of clicks users have to navigate through to get what they want, thus decreasing their satisfaction in the experience.</p>
 					<p>After sketching and considering multiple solutions, I decided that an icon option panel would be the best answer for condensing the various options users had to consider before searching a spot. By adding this panel to the search section, users would not have to navigate through the menu to change their settings each time they want to edit their preferences. In addition, the interface would have less words, making it easier for users to quickly scan through their search.</p>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-1
-							col-lg-4">
+				<div class="col-xs-12">
 					<h3>LOW-FIDELITY WIREFRAMES</h3>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-3">
 					<img src="images/spotlow1.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-4
-							col-lg-4 col-lg-offset-4">
+				<div class="col-xs-12 col-sm-4 col-lg-3">
 					<img src="images/spotlow2.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-7
-							col-lg-4 col-lg-offset-8">
+				<div class="col-xs-12 col-sm-4 col-lg-3">
 					<img src="images/spotlow3.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-1
-							col-lg-4">
+				<div class="col-xs-12">
 					<h3>HIGH-FIDELITY WIREFRAMES</h3>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-lg-3">
 					<img src="images/spothigh1.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-4
-							col-lg-4 col-lg-offset-4">
+				<div class="col-xs-12 col-sm-4 col-lg-3">
 					<img src="images/spothigh2.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-3 col-md-offset-7
-							col-lg-4 col-lg-offset-8">
+				<div class="col-xs-12 col-sm-4 col-lg-3">
 					<img src="images/spothigh3.png" />
 				</div>
+			</div>
+		</div>
+	</section>
 
 	<footer>
 		<div class="container-fluid">

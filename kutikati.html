@@ -12,15 +12,24 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+	<script src="js/flickity.pkgd.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-6 col-xs-offset-1
-							col-md-4 col-md-offset-1">
-					<a href="index.html"><img src="images/name.png" /></a>
+				<div class="col-xs-12 col-md-6">
+					<a href="index.html"><p class="head">Esther H. Lee</p></a>
+					<p class="subhead">UX/UI & Visual Designer</p>
+				</div>
+				<div class="primary-nav col-xs-12 col-md-6">
+					<ul>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -34,31 +43,33 @@
 					<h4>E-COMMERCE STORE</h4>
 					<h4>BRANDING & WEB DESIGN</h4>
 				</div>
-				<div class="form-group">
-					<div class="col-xs-12 text-center">
-						<a href="#">
-						<button type="submit" class="btn btn-default">VIEW PROTOTYPE</button>
-						</a>
-					</div>
+				<div class="col-xs-12 text-center">
+					<a href="https://invis.io/D87B747T6#/158749935_Home_Page "><button type="button" class="btn btn-default">VIEW PROTOYPE</button></a>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1">
+				
+			</div>
+		</div>
+	</section>
+
+
+	<section class="kk main">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
 					<img src="images/kutikati1.png" />
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="approach">
+
+	<section class="kk approach">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-5
-							col-lg-5">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0">
 					<img src="images/kutikati2.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-5 col-md-offset-6
-							col-lg-6 col-lg-offset-6">
+				<div class="col-xs-12 col-md-6">
 					<h2>APPROACH & PROCESS</h2>
 					<p>Kutikati is an organic baby clothing company whose aim is to sell products that care for the well-being of both the baby and the environment. Kutikati sets itself apart from its competitors by highlighting the product itself and the benefits of it.</p>
 					<p>After surveying and interviewing mothers, Kutikati's target audience, I concluded that mothers are highly conscious of two things: their time and the health and well-being of their child. With that idea, I decided that Kutikati's e-commerce store should focus on showcasing the products, which in and of itself meet the needs of health-conscious mothers. In addition, by minimizing the layout to show just what is necessary, Kutikati's e-commerce store allows for a smooth and fast shopping experience for busy mothers.</p>
@@ -68,55 +79,192 @@
 		</div>
 	</section>
 
-	<section class="research">
+	<section class="kk research">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-3">
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
 					<h2>RESEARCH</h2>
 					<p>I compiled a list of user stories and features after looking through various e-commerce sites and using them as examples. Typically, many clothing sites, especially ones for babies, have multiple subcategories and even have options to specify their search. In my original list of user stories, I considered including these options in Kutikati's site as well. However given the company size of Kutikati, I decided that these options are not necessary and only complicate the experience of the users</p>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6">
+				<div class="col-xs-12 col-md-6">
 					<h3>USER STORIES</h3>
-					<img src="images/kkuserstory1.png" />
+					<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse all girls/boys items</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse girls/boys onesies</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse girls/boys shoes</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse all accessories</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse bibs</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse headbands</td>
+							</tr>							
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse socks</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to read about the company story</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to select an item</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to change the size of an item</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to change the quantity to purchase for an item</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to read/write a review for an item</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to add an item to my cart</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to see my cart</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to remove an item from my cart</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to edit an item from my cart</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to checkout from my cart</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to sign into my account</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to create an account</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to checkout as a guest</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to change my shipping information as a registered guest</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to use my saved shipping information as a registered guest</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to input my shipping information as a guest</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want to pay with a credit card</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to pay with PayPal</td>
+							</tr>	
+							<tr>
+								<td>As a user</td>
+								<td>I want my billing address to be the same as my shipping address</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to add a separate billing address than my shipping information</td>
+							</tr>		
+						</tbody>
+					</table>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6 col-lg-offset-6">
+				<div class="col-xs-12 col-md-6">
 					<h3>REMOVED FEATURES</h3>
-					<img src="images/kkuserstory1.png" />
+					<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse items by color</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to browse items by style</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to filter my browsing by color</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to viewall items for all categories</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to do a quick view on an item</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to see the cart nav when I hover the cart icon</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to remove/edit an item directly from the cart icon</td>
+							</tr>
+							<tr>
+								<td>As a user</td>
+								<td>I want to create an account during checkout</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="design">
+	<section class="kk design">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-6">
+				<div class="col-xs-12 col-md-6">
 					<h2>DESIGN</h2>
 					<p>I researched many clothing brand logos and saw that boutique-like clothing brands have a text-based logo instead of an iconic one. The nature of Kutikati’s product focuses on a friendly tone, both to individual families and the environment, so I felt that it should not market itself as a massive enterprise with a strong iconic logo. Instead I opted for a clean and well typeset text-based logo that could easily go on tags and labels.</p>
 					<p>The color palette was drawn from classic baby colors such as light pink and faint beige, but also highlighted the organic aspect of the brand through the forest green. The combination of the colors created a synergy of the playful tone of Kutikati’s clothing style and patterns.</p>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-6 col-md-offset-3
-							col-lg-5 col-lg-offset-7">
-					<img src="images/kklogo.png" />
+				<div class="col-xs-12 col-md-6">
+					<img class="kklogo center-block" src="images/kklogo.png" />
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-6 col-md-offset-3
-							col-lg-6 col-lg-offset-3">
-					<h3>COLOR PALETTE</h3>
-					<img src="images/kkcolor.png" />
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+					<h3 class="kkcolor">COLOR PALETTE</h3>
+					<div class="square" style="background:#333333;"></div>
+					<div class="square" style="background:#E8D0D6;"></div>
+					<div class="square" style="background:#0C6F4C;"></div>
+					<div class="square" style="background:#7D7D7D;"></div>
+					<div class="square" style="background:#D3C4A6;"></div>
+					<div class="square" style="background:#F36E21;"></div>
 				</div>
-				<div class="col-xs-10 col-xs-offset-1
-							col-md-8 col-md-offset-2
-							col-lg-8 col-lg-offset-2">
+				<div class="kktypo col-xs-12 col-md-8 col-md-offset-2">
 					<h3>TYPOGRAPHY</h3>
 					<p class="subtitle">SUBHEAD</p>
 					<p class="kktype1">SELECT A PAYMENT METHOD</p>
@@ -129,15 +277,13 @@
 		</div>
 	</section>
 
-	
-
 
 
 
 	<footer>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-8 col-xs-offset-2">
+				<div class="col-xs-12">
 					<i class="fa fa-facebook"></i>
 					<i class="fa fa-linkedin"></i>
 					<i class="fa fa-instagram"></i>

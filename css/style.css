@@ -1,67 +1,95 @@
+/*MAIN CSS*/
 html, body{
 	overflow-x:hidden;
 	width:100%;
 }
-
 body{
 	font-family: "Gill Sans", "Lato", Helvetica, Arial, sans-serif;
 	color:#333333;
 	font-size:16px;
 }
-
 h1{
-	font-size:2em;
+	font-size:1.25em;
 	line-height: 1.25em;
 	color:#FFC951;
 	font-weight:600;
 	text-align:center;
 	text-decoration: underline;
+	letter-spacing: 1px;
 }
-
 h2{
 	font-size:1em;
 	line-height: 1.25em;
 	color:#CCDBDD;
 	font-weight:600;
 }
-
 h3{
 	font-size:0.75em;
 	color:#9E9E9E;
 	font-weight:600;
 }
-
 h4{
-	font-size:0.75em;
-	line-height: .75em;
+	font-size:0.6em;
+	line-height:.4em;
 	color:#333333;
 	font-weight:400;
 	text-align:center;
 }
-
 p{
-	font-size:1em;
-	line-height: 1.25em;
+	font-size:.9em;
+	line-height: 1.75em;
 	color:#333333;
 	font-weight:200;
 }
-
 img{
 	max-width:100%;
 	height:auto;
 }
-
+header {
+	padding: 16px 0 0 16px;
+}
 header p.head{
-	font-size:1.5em
-	font-weight:600;
+	font-size:1em;
 	color:#333333;
+	font-weight: 400;
+	letter-spacing: .2em;
+	text-transform:uppercase;
+}
+header a:hover{
+	text-decoration: none;
 }
 header p.subhead{
-	font-size:0.5em;
+	font-size:0.6em;
 	font-weight:200;
 	color:#333333;
+	line-height: .3em;
+	letter-spacing:.15em;
+	text-transform:uppercase;
 }
-
+.primary-nav {
+	margin-top: 16px;
+}
+header ul {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+header li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+header li a {
+	margin: 0 50px 0 0;
+	text-transform: uppercase;
+	color: #333;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 0.8em;
+}
+header li a:hover{
+	color:#FFC951;
+}
 footer i{
 	font-size:.75em;
 	color:#9E9E9E;
@@ -73,13 +101,55 @@ footer p{
 	text-align:center;
 }
 
+.btn{
+	background-color:#CCDBDD;
+	border-color:#CCDBDD;
+	font-size:.6em;
+	padding:.7em 2.75em .7em 2.75em;
+	margin:1em;
+	}
+
+/*---*/
+/*--INDEX.HTML--*/
+.main{
+	padding:0 16px 0px 16px;
+}
+.main img{
+	padding-bottom:20px;
+}
+
+/*--KUTIKATI.HTML--*/
+.kk.main{
+	padding:20px 20px 20px 20px;
+}
+
+.kk.approach{
+	padding:10px 20px 20px 20px;
+}
+.kk.approach img{
+	padding-bottom:20px;
+}
+.kk.research{
+	padding:0px 20px 20px 20px;
+}
+.kk.research table{
+	font-size:.55em;
+	font-weight:200;
+}
+.kk.design{
+	padding:10px 20px 20px 20px;
+}
+.kklogo{
+	padding:20px 0px 20px 0px;
+}
+.kktypo{
+	padding:20px 2px 20px 20px;
+}
 .design p.subtitle{
 	font-size:0.75em;
 	font-weight: 200;
 	color:#9E9E9E;
 }
-
-/*--------KUTIKATI-------------*/
 .design p.kktype1{
 	font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
 	font-weight: 900;
@@ -94,148 +164,597 @@ footer p{
 	font-family:Georgia, Times,serif;
 	font-size:0.875em;
 }
-
-
-/*--------SPOTTER-------------*/
-.design p.spottype1{
-	font-family: "Open Sans", "Lato", Helvetica, Arial, sans-serif;
-	font-weight:700;
-	font-size:1.125em;
+.kk.design .square{
+	width:93px;
+	height:75px;
+	display:inline-block;
 }
+
+/*--SPOTTER.HTML--*/
+.sp.approach{
+	padding:10px 20px 20px 20px;
+}
+.sp.research{
+	padding:0px 20px 20px 20px;
+}
+.sp.research table{
+	font-size:.55em;
+	font-weight:200;
+}
+.sp.design{
+	padding:10px 20px 20px 20px;
+}
+.sp.design .square{
+	width:55px;
+	height:50px;
+	display:inline-block;
+}
+.design p.spottype1{
+	font-family:"Open Sans", "Lato", Helvetica, Arial, sans-serif;
+	font-weight:700;
+	font-size:1.125em;}
 .design p.spottype2{
 	font-family: "Open Sans", "Lato", Helvetica, Arial, sans-serif;
 	font-weight:400;
 	font-size:0.875em;
 }
+.sp.wireframes{
+	padding:10px 20px 20px 20px;
+}
+.sp.wireframes img{
+	text-align:center;
+}
 
 
 
+/*---------------------------------------------------------------*/
 /* small devices -tablets- 768-991px */
+/*MAIN CSS*/
 @media (min-width:768px) and (max-width:991px){
 	body{
 		font-size:16px;
 	}
 	h1{
-		font-size:2.5em;
-		line-height: 1.125em;
+		font-size:1.5em;
+		line-height:1.5em;
+		letter-spacing:2px;
 	}
 	h2{
-		font-size:1.5em;
-		line-height: 1.25em;
+		font-size:1.25em;
+		line-height:1.25em;
 	}
 	h3{
-		font-size:1.125em;
+		font-size:.75em;
 	}
 	h4{
-		font-size:1em;
-		line-height: 1.25em;
+		font-size:.75em;
+		line-height:1em;
 	}
 	p{
 		font-size:1em;
-		line-height: 1.375em;
+		line-height:1.9em;
 	}
-	footer i{
-		font-size:1.25em;
-	}
-	footer p{
-		font-size: 1em;
+	header {
+		padding: 50px 50px 40px 50px;
 	}
 	header p.head{
-		font-size:1.938em;
-		font-weight:600;
+		font-size:1.3em;
+		font-weight:400;
+		color:#333333;
+		letter-spacing: .2em;
 	}
 	header p.subhead{
-		font-size:1em;
+		font-size:0.7em;
+		font-weight:200;
+		color:#333333;
+		line-height: 0px;
+		letter-spacing:.2em;
+	}
+	.primary-nav {
+	margin-top: 16px;
+	}
+	header ul {
+		margin: 0;
+		padding: 0;
+	}
+	header li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline;
+	}
+	header li a {
+		margin: 0 50px 0 0;
+		text-transform: uppercase;
+		color: #333;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+	}
+	footer i{
+		font-size:.75em;
+		color:#9E9E9E;
+	}
+	footer p{
+		font-size: 0.625em;
+		color:#9E9E9E;
+		font-weight:400;
+		text-align:center;
+	}
+	.btn{
+		background-color:#CCDBDD;
+		border-color:#CCDBDD;
+		font-size:.75em;
+		padding:.75em 3em .75em 3em;
+		margin:1em;
+	}
+
+	/*--INDEX.HTML--*/
+	.main {
+		padding:0 0px 20px 50px;
+	}
+
+	/*--KUTIKATI.HTML--*/
+	.kk.main{
+		padding:20px 50px 20px 50px;
+	}
+	.kk.approach{
+		padding:10px 80px 20px 80px;
+	}
+	.kk.approach img{
+		padding-bottom:20px;
+	}
+	.kk.research{
+		padding:0px 80px 20px 80px;
+	}
+	.kk.research table{
+		font-size:.75em;
 		font-weight:200;
 	}
-
-
-
-
-	.title button{
-		background-color:white;
-		color:#333333;
-		
+	.kk.design{
+		padding:10px 80px 20px 80px;
 	}
-	.title button:hover{
-		background-color:#CCDBDD;
-		color:#333333;
-		border:none;
+	.kklogo{
+		padding:20px 0px 20px 0px;
+	}
+	
+	.kktypo{
+		padding:20px 2px 20px 20px;
+	}
+	.design p.subtitle{
+		font-size:0.75em;
+		font-weight: 200;
+		color:#9E9E9E;
+	}
+	.design p.kktype1{
+		font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
+		font-weight: 900;
+		font-size:1.125em;
+	}
+	.design p.kktype2{
+		font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:400;
+		font-size:0.875em;
+	}
+	.design p.kktype3{
+		font-family:Georgia, Times,serif;
+		font-size:0.875em;
+	}
+	.kk.design .square{
+		width:122px;
+		height:110px;
+		display:inline-block;
+	}
+	/*--SPOTTER.HTML--*/
+	.sp.approach{
+		padding:10px 80px 20px 80px;
+	}
+	.sp.research{
+		padding:0px 80px 20px 80px;
+	}
+	.sp.research table{
+		font-size:.75em;
+		font-weight:200;
+	}
+	.sp.design{
+		padding:10px 80px 20px 80px;
+	}
+	.sp.design .square{
+		width:112px;
+		height:90px;
+		display:inline-block;
+	}
+	.design p.spottype1{
+		font-family:"Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:700;
+		font-size:1.125em;}
+	.design p.spottype2{
+		font-family: "Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:400;
+		font-size:0.875em;
+	}
+	.sp.wireframes{
+		padding:10px 80px 50px 80px;
+	}
+	.sp.wireframes img{
 		text-align:center;
 	}
 
-	.design p.subtitle{
-		font-size:1.125em;
-	}
-
-	/*--------KUTIKATI-------------*/
-	.design p.kktype1{
-		font-size:1.5em;
-	}
-	.design p.kktype2{
-		font-size:1.125em;
-	}
-	.design p.kktype3{
-		font-size:1.125em;
-	}
-	.design p.spottype1{
-		font-size:1.5em;
-	}
-	.design p.spottype2{
-		font-size:1.125em;
 }
 
-}
-
-/* large devices -desktops- >1200 */
-@media (min-width:1200px){
+/*---------------------------------------------------------------*/
+/* medium devices -large tablets- 992px-1199px */
+/*MAIN CSS*/
+@media (min-width:992px) and (max-width:1199px){
 	body{
-		font-sixe:16px;
+		font-size:16px;
 	}
 	h1{
-		font-size:4em;
-		line-height: 1.05em;
+		font-size:2em;
+		line-height: 1.4em;
 	}
 	h2{
-		font-size:2.25em;
-		line-height: 1.25em;
+		font-size:1.2em;
+		line-height:1.125em;
 	}
 	h3{
-		font-size:1.375em;
+		font-size:.8em;
 	}
 	h4{
-		font-size:1.125em;
-		line-height: 1.25em;
+		font-size:.8em;
+		line-height:1em;
 	}
 	p{
-		font-size:1em;
-		line-height: 1.375em;
+		font-size:.85em;
+		line-height:1.75em;
 	}
-	footer i{
-		font-size:1.87em;
-	}
-	footer p{
-	font-size: 1.125em;
+	header {
+		padding: 50px 0px 40px 50px;
 	}
 	header p.head{
-		font-size:1.938em;
-		font-weight:600;
+		font-size:1.5em;
+		font-weight:400;
+		color:#333333;
+		letter-spacing: .2em;
 	}
 	header p.subhead{
-		font-size:1.2em;
+		font-size:0.9em;
+		font-weight:200;
+		color:#333333;
+		line-height: 0em;
+		letter-spacing:.13em;
+	}
+	.primary-nav {
+		margin-top: 16px;
+		text-align:right;
+	}
+	header ul {
+		margin: 0;
+		padding: 0;
+	}
+	header li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline;
+	}
+	header li a {
+		margin: 0 50px 0 0;
+		text-transform: uppercase;
+		color: #333;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+	}
+	footer i{
+		font-size:.75em;
+		color:#9E9E9E;
+	}
+	footer p{
+		font-size: 0.625em;
+		color:#9E9E9E;
+		font-weight:400;
+		text-align:center;
+	}
+
+	.btn{
+		background-color:#CCDBDD;
+		border-color:#CCDBDD;
+		font-size:.75em;
+		padding:.75em 3em .75em 3em;
+		margin:1em;
+	}
+
+	/*--INDEX.HTML--*/
+	.main {
+		padding:0 50px 50px 50px;
+	}
+
+	/*--KUTIKATI.HTML--*/
+	.kk.main{
+		padding:50px 70px 20px 70px;
+	}
+	.kk.approach{
+		padding:50px 70px 20px 70px;
+	}
+	.kk.approach img{
+		padding:0px 0px 20px 0px;
+	}
+	.kk.research{
+		padding:0px 80px 20px 80px;
+	}
+	.kk.research table{
+		font-size:.75em;
 		font-weight:200;
 	}
-	.design p.subtitle{
-		font-size:1.375em;
+	.kk.design{
+		padding:10px 80px 20px 80px;
 	}
-		/*--------KUTIKATI-------------*/
+	.kklogo{
+		padding:20px 0px 20px 0px;
+	}
+	.kkcolor{
+		padding-top:40px;
+	}
+	.kktypo{
+		padding:40px 2px 20px 20px;
+	}
+	.design p.subtitle{
+		font-size:0.75em;
+		font-weight: 200;
+		color:#9E9E9E;
+	}
 	.design p.kktype1{
-		font-size:1.5em;
+		font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
+		font-weight: 900;
+		font-size:1.125em;
 	}
 	.design p.kktype2{
-		font-size:1.125em;
+		font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:400;
+		font-size:0.875em;
 	}
 	.design p.kktype3{
+		font-family:Georgia, Times,serif;
+		font-size:0.875em;
+	}
+	.kk.design .square{
+		width:120px;
+		height:100px;
+		display:inline-block;
+	}	
+
+	/*--SPOTTER.HTML--*/
+	.sp.approach{
+		padding:50px 80px 20px 80px;
+	}
+	.sp.approach img{
+		padding-top:30px;
+	}
+	.sp.research{
+		padding:0px 80px 50px 80px;
+	}
+	.sp.research table{
+		font-size:.75em;
+		font-weight:200;
+	}
+	.sp.design{
+		padding:10px 80px 20px 80px;
+	}
+	.sp.design img{
+		width:90%;
+		height:auto;
+		padding-top:20px;
+	}
+	.sp.design .square{
+		width:130px;
+		height:115px;
+		display:inline-block;
+	}
+	.design p.spottype1{
+		font-family:"Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:700;
+		font-size:1.125em;}
+	.design p.spottype2{
+		font-family: "Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:400;
+		font-size:0.875em;
+	}
+	.sp.wireframes{
+		padding:10px 80px 50px 80px;
+	}
+	.sp.wireframes img{
+		text-align:center;
+	}
+}
+/*---------------------------------------------------------------*/
+/* large devices -desktops- >1200 */
+/*MAIN CSS*/
+@media (min-width:1200px){
+	body{
+		font-size:16px;
+	}
+	h1{
+		font-size:2em;
+		line-height: 1.75em;
+	}
+	h2{
+		font-size:1.3em;
+		line-height:1.125em;
+	}
+	h3{
+		font-size:.75em;
+	}
+	h4{
+		font-size:1em;
+		line-height:1.25em;
+	}
+	p{
+		font-size:.9em;
+		line-height:2em;
+	}
+	header {
+		padding: 30px 0px 50px 50px;
+	}
+
+	header p.head{
+		font-size:1.5em;
+		font-weight:400;
+		color:#333333;
+		letter-spacing: .2em;
+	}
+	header p.subhead{
+		font-size:0.9em;
+		font-weight:200;
+		color:#333333;
+		line-height: 0;
+		letter-spacing:.13em;
+	}
+	.primary-nav {
+		margin-top: 16px;
+		text-align:right;
+	}
+	header ul {
+		margin: 0;
+		padding: 0;
+	}
+	header li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: inline;
+	}
+	header li a {
+		margin: 0 50px 0 0;
+		text-transform: uppercase;
+		color: #333;
+		text-decoration: none;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+	}
+	footer i{
+		font-size:.75em;
+		color:#9E9E9E;
+	}
+	footer p{
+		font-size: 0.625em;
+		color:#9E9E9E;
+		font-weight:400;
+		text-align:center;
+	}
+
+	.btn{
+		background-color:white;
+		border-color:#9E9E9E;
+		font-size:1em;
+		padding:.75em 3em .75em 3em;
+		margin:1em;
+	}
+	.btn:hover{
+		background-color:#CCDBDD;
+		border-color:#CCDBDD;
+	}
+	/*--INDEX.HTML--*/
+	.main {
+		padding:0 50px 70px 50px;
+	}
+
+	/*--KUTIKATI.HTML--*/
+	.kk.main{
+		padding:50px 150px 20px 150px;
+	}
+	.kk.approach{
+		padding:50px 70px 20px 70px;
+	}
+	.kk.approach img{
+		padding:0px 0px 20px 0px;
+	}
+	.kk.research{
+		padding:0px 100px 20px 100px;
+	}
+	.kk.research table{
+		font-size:.9em;
+		font-weight:200;
+	}
+	.kk.design{
+		padding:10px 100px 20px 100px;
+	}
+	.kklogo{
+		padding:20px 0px 20px 0px;
+	}
+	.kkcolor{
+		padding-top:40px;
+		padding-
+	}
+	.kktypo{
+		padding:40px 2px 20px 20px;
+	}
+	.design p.subtitle{
+		font-size:0.75em;
+		font-weight: 200;
+		color:#9E9E9E;
+	}
+	.design p.kktype1{
+		font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
+		font-weight: 900;
 		font-size:1.125em;
 	}
+	.design p.kktype2{
+		font-family:"Avenir", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:400;
+		font-size:0.875em;
+	}
+	.design p.kktype3{
+		font-family:Georgia, Times,serif;
+		font-size:0.875em;
+	}
+	.kk.design .square{
+		width:140px;
+		height:120px;
+		display:inline-block;
+	}
+
+	/*--SPOTTER.HTML--*/
+	.sp.approach{
+		padding:50px 80px 20px 80px;
+	}
+	.sp.approach img{
+		padding-top:30px;
+	}
+	.sp.research{
+		padding:0px 100px 50px 100px;
+	}
+	.sp.research table{
+		font-size:.75em;
+		font-weight:200;
+	}
+	.sp.design{
+		padding:10px 100px 20px 100px;
+	}
+	.sp.design img{
+		width:70%;
+		height:auto;
+		padding-top:20px;
+	}
+	.sp.design .square{
+		width:170px;
+		height:150px;
+		display:inline-block;
+	}
+	.design p.spottype1{
+		font-family:"Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:700;
+		font-size:1.125em;}
+	.design p.spottype2{
+		font-family: "Open Sans", "Lato", Helvetica, Arial, sans-serif;
+		font-weight:400;
+		font-size:0.875em;
+	}
+	.sp.wireframes{
+		padding:10px 80px 50px 80px;
+	}
+	.sp.wireframes img{
+		text-align:center;
+	}
+
 }
