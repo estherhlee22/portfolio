@@ -47,6 +47,7 @@ img{
 }
 header {
 	padding: 16px 0 0 16px;
+	border-top:10px solid #CCDBDD;
 }
 header p.head{
 	font-size:1em;
@@ -57,6 +58,9 @@ header p.head{
 }
 header a:hover{
 	text-decoration: none;
+}
+header a:active{
+	text-decoration:none;
 }
 header p.subhead{
 	font-size:0.6em;
@@ -99,6 +103,9 @@ footer p{
 	color:#9E9E9E;
 	font-weight:400;
 	text-align:center;
+}
+footer .about{
+	padding-top:50px;
 }
 
 .btn{
@@ -205,6 +212,22 @@ footer p{
 	text-align:center;
 }
 
+/*--ABOUT.HTML--*/
+.about h1{
+	text-decoration:none;
+	text-align:left;
+}
+.about{
+	padding-left:20px;
+}
+.about .btn{
+	margin-top:50px;
+	padding:.75em auto;
+}
+.about p.about{
+	font-weight: 500;
+	line-height:10px;
+}
 
 
 /*---------------------------------------------------------------*/
@@ -281,6 +304,7 @@ footer p{
 		font-weight:400;
 		text-align:center;
 	}
+
 	.btn{
 		background-color:#CCDBDD;
 		border-color:#CCDBDD;
@@ -380,6 +404,11 @@ footer p{
 		text-align:center;
 	}
 
+	.about .btn{
+		margin:50px 50px 20px 0px;
+		padding:.75em auto;
+	}
+
 }
 
 /*---------------------------------------------------------------*/
@@ -455,6 +484,9 @@ footer p{
 		color:#9E9E9E;
 		font-weight:400;
 		text-align:center;
+	}
+	footer .about{
+		padding-top:200px;
 	}
 
 	.btn{
@@ -566,6 +598,10 @@ footer p{
 	.sp.wireframes img{
 		text-align:center;
 	}
+	.about .btn{
+		margin:70px 50px 20px 0px;
+		padding:.75em auto;
+	}
 }
 /*---------------------------------------------------------------*/
 /* large devices -desktops- >1200 */
@@ -641,6 +677,9 @@ footer p{
 		color:#9E9E9E;
 		font-weight:400;
 		text-align:center;
+	}
+	footer.about{
+		padding-top:170px;
 	}
 
 	.btn{
@@ -755,6 +794,11 @@ footer p{
 	}
 	.sp.wireframes img{
 		text-align:center;
+	}
+
+	.about .btn{
+		margin:90px 50px 20px 0px;
+		padding:.75em auto;
 	}
 
 }
