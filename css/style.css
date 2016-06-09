@@ -172,7 +172,7 @@ footer .about{
 	font-size:0.875em;
 }
 .kk.design .square{
-	width:93px;
+	width:90px;
 	height:75px;
 	display:inline-block;
 }
@@ -212,6 +212,16 @@ footer .about{
 	text-align:center;
 }
 
+.screenshots {
+	clear: both;
+	text-align: center;
+}
+.screenshot {
+	margin: 0 2em;
+	display: inline-block;
+	width: 195px;
+}
+
 /*--ABOUT.HTML--*/
 .about h1{
 	text-decoration:none;
@@ -227,6 +237,23 @@ footer .about{
 .about p.about{
 	font-weight: 500;
 	line-height:10px;
+}
+
+/*--BEESWEET.HTML--*/
+.bsapproach{
+	padding:10px 20px 20px 20px;
+}
+
+.bsdesign{
+	padding:10px 20px 20px 20px;
+}
+.bsdesign img{
+	padding-bottom:40px;
+}
+.bsdesign .square{
+	width:90px;
+	height:75px;
+	display:inline-block;
 }
 
 
@@ -408,6 +435,26 @@ footer .about{
 		margin:50px 50px 20px 0px;
 		padding:.75em auto;
 	}
+	.about p.about{
+		font-weight:400;
+		letter-spacing: 1px;
+		font-size:.9em;
+	}
+
+	/*--BEESWEET.HTML--*/
+	.bsapproach{
+		padding:10px 80px 20px 80px;
+	}
+
+	.bsdesign{
+		padding:10px 80px 20px 80px;
+	}
+	.bsdesign .square{
+		width:122px;
+		height:110px;
+		display:inline-block;
+	}
+
 
 }
 
@@ -601,6 +648,19 @@ footer .about{
 	.about .btn{
 		margin:70px 50px 20px 0px;
 		padding:.75em auto;
+	}
+	/*--BEESWEET.HTML--*/
+	.bsapproach{
+		padding:50px 70px 20px 70px;
+	}
+
+	.bsdesign{
+		padding:10px 80px 20px 80px;
+	}
+	.bsdesign .square{
+		width:120px;
+		height:100px;
+		display:inline-block;
 	}
 }
 /*---------------------------------------------------------------*/
@@ -799,6 +859,20 @@ footer .about{
 	.about .btn{
 		margin:90px 50px 20px 0px;
 		padding:.75em auto;
+	}
+	/*--BEESWEET.HTML--*/
+	.bsapproach{
+		padding:50px 70px 20px 70px;
+	}
+
+	.bsdesign{
+		padding:10px 80px 20px 80px;
+	}
+
+	.bsdesign .square{
+		width:120px;
+		height:100px;
+		display:inline-block;
 	}
 
 }
