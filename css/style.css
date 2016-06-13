@@ -43,7 +43,7 @@ p{
 }
 img{
 	max-width:100%;
-	height: auto;
+	height:auto;
 }
 header {
 	padding: 16px 0 0 16px;
@@ -178,9 +178,6 @@ footer .about{
 	width:90px;
 	height:75px;
 	display:inline-block;
-}
-.carousel img {
-	max-width: none;
 }
 
 /*--SPOTTER.HTML--*/
