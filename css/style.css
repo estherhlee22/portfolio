@@ -94,6 +94,9 @@ header li a {
 header li a:hover{
 	color:#FFC951;
 }
+footer{
+	padding-top:100px;
+}
 footer i{
 	font-size:.75em;
 	color:#9E9E9E;
@@ -228,7 +231,7 @@ footer .about{
 	text-align:left;
 }
 .about{
-	padding-left:20px;
+	padding-left:50px;
 }
 .about .btn{
 	margin-top:50px;
@@ -256,6 +259,9 @@ footer .about{
 	display:inline-block;
 }
 
+.carousel img{
+	max-width: none;
+}
 
 /*---------------------------------------------------------------*/
 /* small devices -tablets- 768-991px */
