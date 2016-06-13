@@ -12,8 +12,8 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-	<script src="/path/to/flickity.pkgd.min.js"></script>
+	<link rel="stylesheet" href="css/flickity.css" media="screen">
+	<script src="js/flickity.pkgd.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -44,7 +44,7 @@
 					<h4>PRODUCT BRANDING & SHOWCASE</h4>
 				</div>
 				<div class="col-xs-12 text-center">
-					<a href="https://github.com/estherhlee22/beesweet/tree/gh-pages"><button type="button" class="btn btn-default">VIEW PROTOYPE</button></a>
+					<a href="https://github.com/estherhlee22/beesweet/tree/gh-pages"><button type="button" class="btn btn-default">VIEW PROTOTYPE</button></a>
 				</div>
 				<div class="col-xs-10 col-xs-offset-1">
 					<img class="center-block" src="images/beesweet1.png" />
@@ -96,15 +96,24 @@
 	<section class="carousel">
 		<div class="container-fluid">
 			<div class="col-xs-12">
-				<div class="main-gallery">
-					<div class="gallery-cell"><img img src="images/bscarousel1.png" /></div>
-					<div class="gallery-cell"><img img src="images/bscarousel2.png" /></div>
-					<div class="gallery-cell"><img img src="images/bscarousel3.png" /></div>
-					<div class="gallery-cell"><img img src="images/bscarousel4.png" /></div>
+				<div class="carousel js-flickity">
+					<div class="carousel-cell">
+						<img src="images/bscarousel1.png"/>
+					</div>
+					<div class="carousel-cell">
+						<img src="images/bscarousel2.png" />
+					</div>
+					<div class="carousel-cell">
+						<img src="images/bscarousel3.png"/>
+					</div>
+					<div class="carousel-cell">
+						<img src="images/bscarousel4.png"/>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 
 
 	<footer>
